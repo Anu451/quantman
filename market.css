@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: rgb(236, 236, 236);
+}
+
+.tab {
+	display: flex;
+	justify-content: space-evenly;
+}
+.tab ul {
+	list-style: none;
+}
+
+.tab-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* grid-gap: 60px; */
+	gap: 100px;
+}
+
+.tab-list li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 2rem;
+}
+.tab-list li span {
+	padding-right: 0.6rem;
+}
+
+.tab-list li:hover {
+	background: white;
+	border-radius: 20px 20px 0 0;
+	box-shadow: 0 -7px 6px 0 rgb(57 104 198 / 15%);
+}
