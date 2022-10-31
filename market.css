@@ -40,3 +40,9 @@ body {
 	border-radius: 20px 20px 0 0;
 	box-shadow: 0 -7px 6px 0 rgb(57 104 198 / 15%);
 }
+
+.tab-active {
+	background: white;
+	border-radius: 20px 20px 0 0;
+	box-shadow: 0 -7px 6px 0 rgb(57 104 198 / 15%);
+}

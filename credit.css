@@ -9,6 +9,31 @@
 	display: flex;
 	justify-content: space-evenly;
 }
+
+.active {
+	padding: 0.5rem;
+	background: white;
+	width: 300px;
+	height: auto;
+	border: 0.1px solid rgb(0, 153, 255) !important;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.active-icon {
+	background: rgb(0, 153, 255) !important;
+	width: 2rem;
+	height: 2rem;
+
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white !important;
+}
+
 .backtest-credits {
 	display: flex;
 	justify-content: space-between;
@@ -33,7 +58,7 @@
 	background: rgb(236, 236, 236);
 	width: 2rem;
 	height: 2rem;
-
+	color: black;
 	border-radius: 5px;
 	display: flex;
 	justify-content: center;
