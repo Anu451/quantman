@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', (e) => {
 		history.classList.remove('active-icon');
 		friends.classList.remove('active-icon');
 		wallet.classList.remove('active-icon');
-
-		// icon.classList.add('active-icon');
 	});
 
 	document.querySelector('#backtest').addEventListener('click', (e) => {
